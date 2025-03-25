@@ -1,0 +1,45 @@
+
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 50px; 
+        }
+        .report-container { 
+            max-width: 500px; 
+            margin: auto; 
+            padding: 20px; 
+            border: 1px solid #ccc; 
+            border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        }
+        
+        h1 { 
+            text-align: center; 
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-top: 20px; 
+        }
+        th, td { 
+            border: 1px solid #ccc; 
+            padding: 10px; 
+            text-align: center; 
+        }
+        th { 
+            background-color: #4CAF50; 
+            color: white; 
+        }
+        .back-btn { 
+            
+            display: block; 
+            width: 100%; 
+            background-color: #007BFF; 
+            color: white; 
+            text-align: center; 
+            padding: 10px; 
+            text-decoration: none; 
+            border-radius: 5px;
+            margin-top: 20px; 
+        }
+        .back-btn:hover { 
+            background-color: #0056b3; 
+        }
