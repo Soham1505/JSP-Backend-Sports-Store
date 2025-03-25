@@ -46,5 +46,5 @@ CREATE TABLE `users` (
   UNIQUE KEY `username_UNIQUE` (`username`)
 );
 INSERT INTO `users` VALUES
-(14, 'soham', 'soham'),
-(15, 'admin', 'admin');
+(1, 'soham', 'soham'),
+(2, 'admin', 'admin');
