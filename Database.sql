@@ -26,20 +26,6 @@ CREATE TABLE `customers` (
 );
 INSERT INTO `customers` VALUES (1, 'sairaj', '1122334455', 'sai@gmail.com', 'nerul');
 INSERT INTO `customers` VALUES (2, 'sonu', '1122534455', 'sonu@gmail.com', 'mumbai');
--- Table: daily_sales
-CREATE TABLE `daily_sales` (
-  `saleDate` DATE NOT NULL,
-  `totalSales` DECIMAL(10,2) NOT NULL DEFAULT '0.00',
-  `totalTransactions` INT NOT NULL,
-  PRIMARY KEY (`saleDate`)
-);
-INSERT INTO `daily_sales` VALUES
-('2025-01-29', 3553.00, 4),
-('2025-01-30', 13500.00, 2),
-('2025-02-07', 22500.00, 1),
-('2025-02-10', 31200.00, 9),
-('2025-02-11', 3500.00, 5),
-('2025-03-25', 1050.00, 1);
 
 -- Table: products
 CREATE TABLE `products` (
