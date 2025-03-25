@@ -24,8 +24,8 @@ CREATE TABLE `customers` (
   UNIQUE KEY `phone_UNIQUE` (`phone`),
   UNIQUE KEY `email_UNIQUE` (`email`)
 );
-INSERT INTO `customers` VALUES (7, 'sairaj', '1122334455', 'sai@gmail.cin', 'nerul');
-
+INSERT INTO `customers` VALUES (1, 'sairaj', '1122334455', 'sai@gmail.com', 'nerul');
+INSERT INTO `customers` VALUES (2, 'sonu', '1122534455', 'sonu@gmail.com', 'mumbai');
 -- Table: daily_sales
 CREATE TABLE `daily_sales` (
   `saleDate` DATE NOT NULL,
